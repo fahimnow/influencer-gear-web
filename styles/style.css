@@ -10,11 +10,16 @@
 
 /* Shared Styles */
 
+/* .main-width-height{
+    width: 1047px;
+    height: 1662px;
+} */
+
 .site-color{
     color: #AAAAAA;
 }
 
-body{
+header{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -122,6 +127,76 @@ header{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
 }
+
+
+/* Main Section Styles */
+
+.popular-collection{
+    width: 1047px;
+    height: 1662px;
+    margin: 0 auto;
+}
+
+.popular-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600px;
+}
+
+/* Cards Styles */
+
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-title{
+    color: rgba(24, 25, 31, 1);
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: unset;
+}
+
+.doller{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: unset;
+}
+
+.card-des{
+    margin: unset;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.see-more{
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgba(224, 44, 109, 0.87);
+    padding: 5px 5px;
+    max-width: 130px;
+    max-height: 50px;
+    background-color: white;
+    border: none;
+
+}
+
+.btn{
+    justify-content: end;
+    margin-top: 20px;
+}
+
 
 /* Responsive for mobile */
 
